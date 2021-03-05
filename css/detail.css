@@ -15,6 +15,7 @@
  left: 20px;
 }
 .comment{
+  position: absolute;
   margin-left: 180px;
   align:center;
 }
