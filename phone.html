@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <div class="container">
+        <head>
+            <meta charset= "utf-8"/>
+            <link rel="stylesheet" href="css/1.css"/>
+        </head>
+        <header>
+            
+            <div class="info">
+                <strong style="font-family: initial;"><h1>FPT POLYTECHNIC</h1></strong> 
+                 <hr width="100%" size="2px" color="orange"/>
+                 <p>
+                     <strong style="color:orangered">Thực học - Thực nghiệm</strong> 
+                 </p> 
+             </div>
+        </header>
+       
+ <nav class="menu">
+    <ul>
+        <li> <a href="index.html">Trang chủ</a></li>
+        <li> <a href="gioiThieu.html">Giới Thiệu</a></li>
+        <li>
+            <a href="lienHe.html">Liên Hệ</a>
+            <ul >
+                <li><a href="phone.html">Mobile</a></li>
+                <li><a href="email.html">Email</a></li>
+                            </ul>
+        </li>
+        <li> <a href="gopy.html">Góp ý</a></li>
+        <li> <a href="hoidap.html">Hỏi đáp</a></li>
+    </ul>
+</nav>
+     <nav class="top-right">
+        <a href="dangnhap.html">Đăng Nhập  </a>
+        <a href="dangky.html"> Đăng Ký </a>
+        <a href="quenmatkhau.html"> Quên Mật Khẩu  </a>
+    </nav>
+        <article>
+            <div>
+                <h2>ĐĂNG KÝ</h2>
+                <fieldset>
+                    <legend><h3>Mẫu đăng ký</h3></legend>
+                <form action="xuly.php" method="POST" enctype="multipart/form-data">
+                <div class="form-group" tabindex="1">
+               <label> Họ và tên:</label><br/>
+               <input type="text" name="username" class="form-control"/>
+            </div>
+                       <br>
+        
+            <div class="form-group"><br>
+                <label> Quốc tịch:</label><br/>
+                </div class="form-control" @readonly>
+                <option value="Việt Nam">Viet Nam</option>
+             </div>
+             <div>
+                
+                
+                <div class="form-group" @tabindex="2"><br>                                                                   
+                <label>Ghi chú</label>
+                 <textarea rows="5" cols="40">
+                                                                      
+                 </textarea></div><br>
+                <hr >
+                <button class="form-button" @tabindex="3">Thêm</button>
+                <button class="form-button" @tabindex="4">Sửa</button>
+                <button class="form-button" @disabled>Xóa</button><br> <br>
+                <br>          
+            </form>       
+            </fieldset>             
+        </article>
+        <aside>
+            <ul  class="vmenu"  >
+                <li><a href="mt.html">Máy tính xách tay</a></li>
+                <li><a href="dt.html">Điện thoại di động</a></li>
+                <li><a href="qp.html">Máy quay phim</a></li>
+                <li><a href="cam.html">Máy chụp ảnh</a></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>FPT Polytechnic © 2017. All rights reserved</p>
+        </footer>
+
+          </div>
+
+</html>
