@@ -14,3 +14,7 @@
  top: 600px;
  left: 20px;
 }
+.comment{
+  position: absolute;
+  right: 180px;
+}
