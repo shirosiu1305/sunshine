@@ -1,0 +1,16 @@
+.container>article>p{
+  float: right;
+  margin-top: 50px;
+  width: 60%;
+}
+.namefp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.fb-like{
+ float: left;
+ position: absolute;
+ top: 600px;
+ left: 20px;
+}
