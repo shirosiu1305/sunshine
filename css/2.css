@@ -1,0 +1,13 @@
+.color{ color: rgb(0, 140, 255);}
+img{float: left;
+width: 30%;
+margin: 5px;
+clear: both;}
+h4{ float:right;
+    width: 65%;
+    margin: 0px;}
+p{
+    margin: 0px;
+    float: right;
+    width: 65%;
+}
