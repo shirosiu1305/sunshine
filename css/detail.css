@@ -16,9 +16,9 @@
 }
 .fb-comments{
 left: 200px;
-  margin-left: 250px;
-  align:center;
+margin-left: 250px;
+align:center;
+padding-left: 50px;
 position: relative;
 text-align: center;
-
 }
