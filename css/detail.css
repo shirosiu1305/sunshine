@@ -14,11 +14,10 @@
  top: 600px;
  left: 20px;
 }
-.comment{
+.fb-comment{
 position: relative;
   margin-left: 250px;
   align:center;
-  text-align: center;
-  padding-left: 50px;
-  left: 50px;
+
+
 }
